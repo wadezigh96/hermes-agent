@@ -2,12 +2,12 @@ name: rariflat
 title: Rariflat
 description: "Live character reactions for Hermes tools; local reliability learning and transparent tool/skill recommendations based on task fit, reliability, measured rarity, and repeated-call restraint. Includes a local Hermes/A2A agent registry ranked by declared capabilities and caller-supplied completed-task observations. Recommendations are advisory: no automatic dispatch, installation, or connection. The opt-in failure/repeated-call guard is off by default. Tool arguments are inspected in memory and credential-like fields are filtered before learning; raw arguments and credentials are not intentionally persisted. No network requests, telemetry, or subprocesses are initiated."
 repo: https://github.com/wadezigh96/rariflat-hermes
-sha: 61347f55da89996e36a1b94b3c0c35fe878c4776
+sha: e142a6ae48f2ec3d044863c41482bd2aff28f541
 version: "2.0.0"
 maintainer: wadezigh96
 tier: community
 category: desktop
-requires_hermes: ">=0.21"
+requires_hermes: ">=0.21.6"
 docs_url: https://github.com/wadezigh96/rariflat-hermes#readme
 capabilities:
   provides_tools:
